@@ -1,0 +1,152 @@
+*{
+    font-family: "inter";
+    margin: 0%;
+}
+
+#topmenu{
+    background-image: url(image/backgroundtopmenu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+#logo{
+    margin: 4% 0% 0 3%;
+}
+
+#title-topmenu{
+    margin: 3% 0 0 15%;
+    font-size: 6vh;
+    font-weight: 400;
+}
+
+#text-topmenu{
+    margin: 3% 0 0 15%;
+    padding-bottom: 5%;
+    font-size: 2.2vh;
+    font-weight: 300;
+}
+
+#menuinformations{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}   
+
+.icon{
+    margin: 12% 2% 12% 34%;
+}
+
+.informationtext{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+#videosection{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto auto;
+}
+
+#titlevideo{
+    color: #247ba0;
+}
+
+#textvideo{
+    margin: 10% 0 0 0;
+}
+
+#video{
+    margin: 7% 0 7% 40%;  
+}
+
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#carousel{
+    background-color: #247BA0;
+    
+}
+
+#carouseltitle{
+    color: aliceblue;
+    text-align: center;
+    padding: 4%;
+}
+
+.cards{
+    padding: 0 0% 9% 0%;
+}
+
+#leonardo{
+    margin: 0 0 0 50%;
+}
+
+#samantha{
+    margin: 0 0 0 30%;
+}
+
+#leftarrow{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.arrow{
+    margin: 15% 0 0 0;
+}
+
+.arrow:hover{
+    transform: translateY(-10%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#form{
+   text-align: center;
+}
+
+#titleform{
+    color: #383838;
+    font-size: 240%;
+    margin: 2% 0 2% 0;
+}
+
+input{
+    background-color: #EAECE5;
+    color: black;
+    width: 23%;
+    height: 5.5vh;
+    margin: 1%;
+    border: 0ch;
+    border-radius: 3%;
+    padding: 0 0 0 0.8%;
+}
+
+button{
+    background-color: #247BA0; 
+    color: aliceblue;
+    margin: 2% 0 0 0 ;
+    width: 10%;
+    height: 5.5vh;
+    border: 0ch;
+    border-radius: 4%;
+    font-weight:bold ;
+    
+    margin: 0.7% 0 5% 0;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-10%);
+    transition-duration: 1.5s;
+    box-shadow: 0ch 2ch 6ch 0ch black;
+    cursor: pointer;
+}
